@@ -1,0 +1,613 @@
+feature,importance,sensor_scenario,event_q,model,model_key,algorithm,algorithm_key,horizon_min
+deltaT_raw_lag1,1.932540683077664,clean,0.9,DT-proxy base,DT_PROXY_BASE,Logistic,logistic,10
+deltaT_raw_lag2,0.3816149599629941,clean,0.9,DT-proxy base,DT_PROXY_BASE,Logistic,logistic,10
+deltaT_raw_lag3,0.21514987187086818,clean,0.9,DT-proxy base,DT_PROXY_BASE,Logistic,logistic,10
+deltaT_raw_lag1,0.4223828688295425,clean,0.9,DT-proxy base,DT_PROXY_BASE,RF,rf,10
+deltaT_raw_lag2,0.3140684768831963,clean,0.9,DT-proxy base,DT_PROXY_BASE,RF,rf,10
+deltaT_raw_lag3,0.2635486542872612,clean,0.9,DT-proxy base,DT_PROXY_BASE,RF,rf,10
+deltaT_raw_lag1,0.5317835211753845,clean,0.9,DT-proxy base,DT_PROXY_BASE,XGBoost,xgb,10
+deltaT_raw_lag2,0.34774166345596313,clean,0.9,DT-proxy base,DT_PROXY_BASE,XGBoost,xgb,10
+deltaT_raw_lag3,0.12047481536865234,clean,0.9,DT-proxy base,DT_PROXY_BASE,XGBoost,xgb,10
+deltaT_raw_lag1,1.9751237318065527,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,10
+compartment/air_temperature_lag2,0.8124203827199492,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,10
+compartment/leaf_temperature_lag2,0.8113646568627862,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,10
+compartment/air_temperature_lag1,0.7829957932134324,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,10
+compartment/par_lag3,0.31278868758107586,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,10
+compartment/air_temperature_lag3,0.2539943314459802,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,10
+deltaT_raw_lag2,0.19533477146921263,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,10
+compartment/leaf_temperature_lag3,0.17628278281135396,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,10
+deltaT_raw_lag3,0.13605412086651367,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,10
+compartment/leaf_temperature_lag1,0.06835273896356361,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,10
+compartment/par_lag1,0.024389936625262437,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,10
+compartment/par_lag2,0.021774603829689546,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,10
+deltaT_raw_lag1,0.32077824692623785,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,10
+deltaT_raw_lag2,0.17398987886377904,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,10
+deltaT_raw_lag3,0.13304293962258487,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,10
+compartment/leaf_temperature_lag1,0.05960989404948102,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,10
+compartment/leaf_temperature_lag3,0.057530112114561806,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,10
+compartment/leaf_temperature_lag2,0.051677430137125585,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,10
+compartment/par_lag1,0.05093439847254341,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,10
+compartment/par_lag2,0.040045881840911186,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,10
+compartment/par_lag3,0.036346628707996896,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,10
+compartment/air_temperature_lag1,0.027759765208250874,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,10
+compartment/air_temperature_lag3,0.02498908476582272,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,10
+compartment/air_temperature_lag2,0.023295739290704717,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,10
+deltaT_raw_lag1,0.4263392984867096,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,10
+deltaT_raw_lag2,0.1239316314458847,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,10
+compartment/leaf_temperature_lag2,0.06120414286851883,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,10
+compartment/leaf_temperature_lag1,0.05801848694682121,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,10
+compartment/par_lag1,0.05564660206437111,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,10
+deltaT_raw_lag3,0.0519024059176445,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,10
+compartment/par_lag2,0.0486639067530632,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,10
+compartment/par_lag3,0.04195043817162514,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,10
+compartment/air_temperature_lag2,0.03459703177213669,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,10
+compartment/leaf_temperature_lag3,0.03387727960944176,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,10
+compartment/air_temperature_lag3,0.032199375331401825,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,10
+compartment/air_temperature_lag1,0.03166930377483368,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,10
+deltaT_raw_lag1,2.0211574473027913,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+compartment/window_position_lee_side_lag1,0.971757992271694,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+compartment/air_temperature_lag1,0.9566516556585842,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+compartment/air_temperature_lag2,0.802279407029177,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+compartment/leaf_temperature_lag2,0.7695626803477762,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+energy/electricity_use.lighting_lag2,0.7614624377239105,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+compartment/window_position_lee_side_lag2,0.7460466715718032,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+energy/electricity_use.lighting_lag3,0.65642914094347,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+compartment/screen_blackout/screen_position_lag2,0.593401399595492,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+energy/energy_use.heating_lag1,0.5569264776352983,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+compartment/screen_blackout/screen_position_lag1,0.4656022041198101,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+energy/electricity_use.lighting_lag1,0.367358444159511,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+compartment/par_lag3,0.3079940490956619,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+compartment/heating_lower_circuit/pipe_temperature_lag2,0.301476595395221,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+compartment/par_lag1,0.28694420012283467,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+compartment/water_supply/water_flow_duration_lag3,0.2300965821023035,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+compartment/window_position_wind_side_lag1,0.22313976903080882,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+compartment/air_temperature_lag3,0.2012535293849109,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+compartment/water_supply/water_flow_duration_lag1,0.2003560052945091,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+compartment/heating_lower_circuit/pipe_temperature_lag3,0.16720745963158365,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+deltaT_raw_lag3,0.16421866497649776,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+energy/energy_use.heating_lag2,0.1500987920112748,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+compartment/window_position_lee_side_lag3,0.14946708473148407,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+energy/energy_use.heating_lag3,0.13753019093580784,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+compartment/heating_lower_circuit/pipe_temperature_lag1,0.13544846355449164,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+energy/co2_dosage_lag3,0.13140664454642473,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+compartment/leaf_temperature_lag3,0.11752645044147242,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+deltaT_raw_lag2,0.11227004171683662,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+compartment/par_lag2,0.10768727438941851,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+energy/co2_dosage_lag2,0.07494115030480715,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+compartment/leaf_temperature_lag1,0.0705561914523416,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+compartment/window_position_wind_side_lag3,0.053269566374688215,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+energy/co2_dosage_lag1,0.04013388180537983,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+compartment/screen_blackout/screen_position_lag3,0.025502776259624885,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+compartment/water_supply/water_flow_duration_lag2,0.02003068615334313,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+compartment/window_position_wind_side_lag2,0.014186970153868961,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,10
+deltaT_raw_lag1,0.2757384721975258,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+deltaT_raw_lag2,0.1383735913751207,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+deltaT_raw_lag3,0.08970088985630974,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+compartment/leaf_temperature_lag1,0.044505200810949865,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+compartment/leaf_temperature_lag2,0.044064693849139476,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+compartment/leaf_temperature_lag3,0.04058209671701353,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+compartment/par_lag1,0.02969620818442731,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+compartment/par_lag3,0.024132142547116722,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+compartment/par_lag2,0.023091684885015118,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+compartment/heating_lower_circuit/pipe_temperature_lag3,0.018069196796702398,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+compartment/screen_blackout/screen_position_lag1,0.017709549449145504,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+compartment/air_temperature_lag1,0.01712682950155225,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+compartment/air_temperature_lag3,0.015197093511349232,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+compartment/heating_lower_circuit/pipe_temperature_lag2,0.01516789854775397,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+compartment/air_temperature_lag2,0.014326744604253342,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+compartment/heating_lower_circuit/pipe_temperature_lag1,0.01392820914427841,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+compartment/window_position_lee_side_lag1,0.012853719713959846,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+energy/energy_use.heating_lag2,0.012735463735343856,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+energy/energy_use.heating_lag3,0.012054556867063866,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+compartment/window_position_lee_side_lag2,0.011446198803254738,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+compartment/window_position_wind_side_lag3,0.011405165044802972,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+compartment/window_position_wind_side_lag1,0.01138680227149487,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+compartment/screen_blackout/screen_position_lag3,0.011307324008470168,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+compartment/window_position_lee_side_lag3,0.011166748269673118,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+compartment/window_position_wind_side_lag2,0.010781455258682494,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+compartment/screen_blackout/screen_position_lag2,0.009722976959189913,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+energy/energy_use.heating_lag1,0.009622729956324017,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+compartment/water_supply/water_flow_duration_lag1,0.008524576641289847,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+compartment/water_supply/water_flow_duration_lag2,0.008044210921537875,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+energy/electricity_use.lighting_lag1,0.007848666578210492,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+compartment/water_supply/water_flow_duration_lag3,0.007708779725500382,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+energy/electricity_use.lighting_lag2,0.006767525957471237,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+energy/co2_dosage_lag1,0.003952538564677558,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+energy/co2_dosage_lag2,0.003869267875488948,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+energy/co2_dosage_lag3,0.0037874673391122184,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+energy/electricity_use.lighting_lag3,0.00360332353079826,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,10
+deltaT_raw_lag1,0.2430570125579834,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+compartment/leaf_temperature_lag2,0.04626217111945152,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+compartment/heating_lower_circuit/pipe_temperature_lag1,0.04067033901810646,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+deltaT_raw_lag3,0.0344809927046299,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+compartment/leaf_temperature_lag1,0.030559828504920006,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+compartment/screen_blackout/screen_position_lag1,0.030047433450818062,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+compartment/par_lag1,0.02863766998052597,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+energy/energy_use.heating_lag1,0.027865253388881683,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+deltaT_raw_lag2,0.024630244821310043,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+compartment/par_lag2,0.023970767855644226,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+compartment/par_lag3,0.023836776614189148,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+energy/electricity_use.lighting_lag2,0.023334205150604248,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+compartment/screen_blackout/screen_position_lag2,0.0229121632874012,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+energy/co2_dosage_lag1,0.022756338119506836,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+compartment/screen_blackout/screen_position_lag3,0.02196984738111496,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+energy/electricity_use.lighting_lag1,0.021841252222657204,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+compartment/window_position_lee_side_lag1,0.019580397754907608,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+compartment/heating_lower_circuit/pipe_temperature_lag3,0.019414054229855537,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+compartment/heating_lower_circuit/pipe_temperature_lag2,0.019231721758842468,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+compartment/leaf_temperature_lag3,0.019103223457932472,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+compartment/water_supply/water_flow_duration_lag3,0.018718693405389786,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+compartment/window_position_wind_side_lag2,0.01785142719745636,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+compartment/window_position_wind_side_lag1,0.017592690885066986,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+compartment/water_supply/water_flow_duration_lag2,0.017565395683050156,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+compartment/air_temperature_lag3,0.01744987815618515,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+compartment/air_temperature_lag2,0.017176011577248573,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+compartment/window_position_wind_side_lag3,0.016745727509260178,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+compartment/air_temperature_lag1,0.016723351553082466,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+compartment/window_position_lee_side_lag2,0.016228806227445602,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+energy/electricity_use.lighting_lag3,0.015739092603325844,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+compartment/window_position_lee_side_lag3,0.015302084386348724,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+compartment/water_supply/water_flow_duration_lag1,0.015124156139791012,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+energy/co2_dosage_lag3,0.014424276538193226,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+energy/energy_use.heating_lag2,0.013669577427208424,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+energy/energy_use.heating_lag3,0.013112708926200867,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+energy/co2_dosage_lag2,0.012414452619850636,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,10
+deltaT_raw_lag1,1.3605691045977786,clean,0.9,DT-proxy base,DT_PROXY_BASE,Logistic,logistic,30
+deltaT_raw_lag3,0.26800157262274094,clean,0.9,DT-proxy base,DT_PROXY_BASE,Logistic,logistic,30
+deltaT_raw_lag2,0.01262133676577827,clean,0.9,DT-proxy base,DT_PROXY_BASE,Logistic,logistic,30
+deltaT_raw_lag1,0.38666666131165217,clean,0.9,DT-proxy base,DT_PROXY_BASE,RF,rf,30
+deltaT_raw_lag2,0.31720434342683634,clean,0.9,DT-proxy base,DT_PROXY_BASE,RF,rf,30
+deltaT_raw_lag3,0.2961289952615116,clean,0.9,DT-proxy base,DT_PROXY_BASE,RF,rf,30
+deltaT_raw_lag1,0.47876641154289246,clean,0.9,DT-proxy base,DT_PROXY_BASE,XGBoost,xgb,30
+deltaT_raw_lag2,0.3525567352771759,clean,0.9,DT-proxy base,DT_PROXY_BASE,XGBoost,xgb,30
+deltaT_raw_lag3,0.16867676377296448,clean,0.9,DT-proxy base,DT_PROXY_BASE,XGBoost,xgb,30
+deltaT_raw_lag1,1.3737830618313551,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,30
+compartment/leaf_temperature_lag1,0.5056379863255758,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,30
+compartment/par_lag3,0.46553297117782827,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,30
+compartment/par_lag1,0.19888941043572425,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,30
+deltaT_raw_lag3,0.16292461170512806,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,30
+compartment/air_temperature_lag3,0.11182309228892795,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,30
+compartment/par_lag2,0.11076058220137466,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,30
+compartment/air_temperature_lag2,0.08562138102955046,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,30
+deltaT_raw_lag2,0.0728393559383824,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,30
+compartment/leaf_temperature_lag2,0.04882060064388703,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,30
+compartment/air_temperature_lag1,0.03769713337822202,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,30
+compartment/leaf_temperature_lag3,0.03716395452734413,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,30
+deltaT_raw_lag1,0.22744828401588474,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,30
+deltaT_raw_lag2,0.13348359123814263,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,30
+deltaT_raw_lag3,0.11854402569610911,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,30
+compartment/leaf_temperature_lag3,0.08185507160260616,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,30
+compartment/leaf_temperature_lag1,0.073914751211193,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,30
+compartment/par_lag1,0.06991594219564044,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,30
+compartment/leaf_temperature_lag2,0.06890754987287735,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,30
+compartment/par_lag3,0.05729396013593269,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,30
+compartment/par_lag2,0.05724149093004369,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,30
+compartment/air_temperature_lag1,0.04045015309337324,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,30
+compartment/air_temperature_lag3,0.03582639318011179,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,30
+compartment/air_temperature_lag2,0.035118786828085294,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,30
+deltaT_raw_lag1,0.3154368996620178,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,30
+deltaT_raw_lag2,0.09305642545223236,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,30
+compartment/leaf_temperature_lag1,0.08895190805196762,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,30
+compartment/par_lag3,0.07946113497018814,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,30
+compartment/par_lag1,0.0763438493013382,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,30
+compartment/par_lag2,0.06497425585985184,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,30
+deltaT_raw_lag3,0.06132262572646141,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,30
+compartment/leaf_temperature_lag3,0.05504981800913811,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,30
+compartment/leaf_temperature_lag2,0.051493242383003235,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,30
+compartment/air_temperature_lag3,0.03917791321873665,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,30
+compartment/air_temperature_lag2,0.03744092211127281,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,30
+compartment/air_temperature_lag1,0.03729099780321121,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,30
+deltaT_raw_lag1,1.2980644203014806,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+energy/electricity_use.lighting_lag1,1.0474953543184218,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+energy/energy_use.heating_lag3,0.9502921514087922,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+energy/electricity_use.lighting_lag3,0.9180456193616938,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+compartment/heating_lower_circuit/pipe_temperature_lag3,0.6842910559005871,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+compartment/leaf_temperature_lag1,0.5138060414719892,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+energy/energy_use.heating_lag1,0.5105556915165762,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+compartment/window_position_wind_side_lag3,0.4869328673526989,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+compartment/window_position_wind_side_lag2,0.48503559276224584,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+compartment/window_position_lee_side_lag2,0.4297227146939773,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+compartment/window_position_lee_side_lag1,0.4272852400156493,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+energy/energy_use.heating_lag2,0.38213999568954754,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+compartment/window_position_lee_side_lag3,0.3344354455165107,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+compartment/screen_blackout/screen_position_lag1,0.3097134212463588,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+compartment/window_position_wind_side_lag1,0.2702969634652435,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+compartment/par_lag3,0.2423288699783137,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+compartment/water_supply/water_flow_duration_lag2,0.22396184508855288,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+compartment/heating_lower_circuit/pipe_temperature_lag2,0.2238789556797416,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+compartment/screen_blackout/screen_position_lag3,0.2002002522114607,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+compartment/air_temperature_lag3,0.19403930948921905,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+compartment/screen_blackout/screen_position_lag2,0.1921849587701445,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+deltaT_raw_lag3,0.1903321614461335,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+compartment/par_lag1,0.18330138564935777,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+energy/co2_dosage_lag1,0.16737885413100925,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+compartment/par_lag2,0.1504239578851185,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+compartment/heating_lower_circuit/pipe_temperature_lag1,0.14757158284177976,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+energy/electricity_use.lighting_lag2,0.11251098066759324,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+compartment/leaf_temperature_lag3,0.10076121121138587,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+compartment/water_supply/water_flow_duration_lag1,0.055739018850998974,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+compartment/leaf_temperature_lag2,0.04790948073147705,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+compartment/air_temperature_lag2,0.044257983752864646,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+energy/co2_dosage_lag3,0.03484455683698057,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+energy/co2_dosage_lag2,0.03254655483896045,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+deltaT_raw_lag2,0.02007418069379122,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+compartment/water_supply/water_flow_duration_lag3,0.01046836634165076,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+compartment/air_temperature_lag1,0.004233969681769375,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,30
+deltaT_raw_lag1,0.17600921193387614,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+deltaT_raw_lag2,0.09958618562733362,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+deltaT_raw_lag3,0.06939140041070228,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+compartment/leaf_temperature_lag3,0.05277087994542696,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+compartment/leaf_temperature_lag1,0.052147461544664445,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+compartment/leaf_temperature_lag2,0.05063658806688324,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+compartment/par_lag1,0.037487255636415875,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+compartment/par_lag3,0.034192722820330916,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+compartment/par_lag2,0.031265171007854795,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+compartment/heating_lower_circuit/pipe_temperature_lag1,0.026304992725321028,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+compartment/air_temperature_lag1,0.02282027748043873,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+compartment/air_temperature_lag2,0.02101437106929379,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+energy/energy_use.heating_lag1,0.01955021350665018,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+compartment/air_temperature_lag3,0.019367059959365558,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+compartment/window_position_lee_side_lag2,0.017151097450841975,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+compartment/window_position_wind_side_lag1,0.017092273793246127,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+compartment/heating_lower_circuit/pipe_temperature_lag2,0.016853887098283393,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+compartment/window_position_lee_side_lag3,0.016842728064669008,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+compartment/window_position_lee_side_lag1,0.016742273339011966,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+compartment/window_position_wind_side_lag3,0.016322807620352927,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+compartment/heating_lower_circuit/pipe_temperature_lag3,0.015882183207297354,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+energy/energy_use.heating_lag2,0.015841258104437154,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+compartment/screen_blackout/screen_position_lag1,0.015696908703032704,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+compartment/window_position_wind_side_lag2,0.015570470989070065,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+compartment/water_supply/water_flow_duration_lag2,0.014910303042947676,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+compartment/screen_blackout/screen_position_lag3,0.014521536819129136,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+compartment/screen_blackout/screen_position_lag2,0.014336831093690355,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+compartment/water_supply/water_flow_duration_lag1,0.013859135888967394,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+energy/energy_use.heating_lag3,0.013696362787487983,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+compartment/water_supply/water_flow_duration_lag3,0.013305676691026813,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+energy/electricity_use.lighting_lag1,0.010796314392495624,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+energy/co2_dosage_lag2,0.006566284384158187,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+energy/co2_dosage_lag3,0.006244742522482267,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+energy/co2_dosage_lag1,0.005396977550623357,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+energy/electricity_use.lighting_lag3,0.005325940030712537,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+energy/electricity_use.lighting_lag2,0.004500214691478251,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,30
+deltaT_raw_lag1,0.15811635553836823,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+energy/energy_use.heating_lag1,0.07591650635004044,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+compartment/heating_lower_circuit/pipe_temperature_lag1,0.050060052424669266,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+energy/electricity_use.lighting_lag3,0.04870503395795822,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+compartment/leaf_temperature_lag1,0.037771210074424744,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+compartment/par_lag3,0.0326189249753952,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+compartment/screen_blackout/screen_position_lag1,0.030763080343604088,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+compartment/par_lag1,0.030628493055701256,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+energy/electricity_use.lighting_lag1,0.030293911695480347,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+deltaT_raw_lag3,0.0271990317851305,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+compartment/screen_blackout/screen_position_lag3,0.026192596182227135,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+compartment/leaf_temperature_lag2,0.024731170386075974,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+compartment/par_lag2,0.022486837580800056,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+compartment/water_supply/water_flow_duration_lag2,0.02200334519147873,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+compartment/water_supply/water_flow_duration_lag3,0.02141936868429184,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+compartment/leaf_temperature_lag3,0.020923811942338943,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+deltaT_raw_lag2,0.020855719223618507,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+energy/electricity_use.lighting_lag2,0.02054446190595627,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+compartment/air_temperature_lag3,0.019796913489699364,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+energy/energy_use.heating_lag2,0.018372295424342155,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+compartment/window_position_wind_side_lag1,0.01829410158097744,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+compartment/window_position_lee_side_lag2,0.0180638637393713,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+compartment/heating_lower_circuit/pipe_temperature_lag2,0.01777900941669941,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+compartment/air_temperature_lag2,0.0175625067204237,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+compartment/screen_blackout/screen_position_lag2,0.017468459904193878,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+compartment/air_temperature_lag1,0.017008153721690178,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+compartment/heating_lower_circuit/pipe_temperature_lag3,0.016917772591114044,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+compartment/water_supply/water_flow_duration_lag1,0.016800053417682648,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+compartment/window_position_lee_side_lag1,0.01675022765994072,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+energy/co2_dosage_lag3,0.016436923295259476,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+compartment/window_position_wind_side_lag3,0.01568528078496456,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+compartment/window_position_wind_side_lag2,0.014903430826961994,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+energy/co2_dosage_lag1,0.014699436724185944,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+energy/energy_use.heating_lag3,0.014501817524433136,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+compartment/window_position_lee_side_lag3,0.01403534971177578,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+energy/co2_dosage_lag2,0.013694637455046177,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,30
+deltaT_raw_lag1,0.6055380907391812,clean,0.9,DT-proxy base,DT_PROXY_BASE,Logistic,logistic,60
+deltaT_raw_lag2,0.3391602922357786,clean,0.9,DT-proxy base,DT_PROXY_BASE,Logistic,logistic,60
+deltaT_raw_lag3,0.26430470509903914,clean,0.9,DT-proxy base,DT_PROXY_BASE,Logistic,logistic,60
+deltaT_raw_lag1,0.34603927820567043,clean,0.9,DT-proxy base,DT_PROXY_BASE,RF,rf,60
+deltaT_raw_lag2,0.33465415022725203,clean,0.9,DT-proxy base,DT_PROXY_BASE,RF,rf,60
+deltaT_raw_lag3,0.3193065715670776,clean,0.9,DT-proxy base,DT_PROXY_BASE,RF,rf,60
+deltaT_raw_lag1,0.41954365372657776,clean,0.9,DT-proxy base,DT_PROXY_BASE,XGBoost,xgb,60
+deltaT_raw_lag2,0.363473117351532,clean,0.9,DT-proxy base,DT_PROXY_BASE,XGBoost,xgb,60
+deltaT_raw_lag3,0.21698316931724548,clean,0.9,DT-proxy base,DT_PROXY_BASE,XGBoost,xgb,60
+deltaT_raw_lag1,0.5167217466909597,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,60
+compartment/leaf_temperature_lag1,0.3239206960929139,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,60
+deltaT_raw_lag3,0.2871505613383835,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,60
+deltaT_raw_lag2,0.2242323919154631,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,60
+compartment/par_lag2,0.17538379537651244,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,60
+compartment/par_lag3,0.15484772382062484,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,60
+compartment/par_lag1,0.1438797286153925,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,60
+compartment/air_temperature_lag1,0.1336766475691528,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,60
+compartment/leaf_temperature_lag3,0.11933029503703078,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,60
+compartment/air_temperature_lag2,0.10707099974336644,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,60
+compartment/leaf_temperature_lag2,0.008715159387695638,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,60
+compartment/air_temperature_lag3,0.007283065928236045,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,60
+compartment/leaf_temperature_lag3,0.1360732288043601,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,60
+deltaT_raw_lag1,0.13225566654267684,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,60
+deltaT_raw_lag2,0.1054013885921502,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,60
+compartment/leaf_temperature_lag2,0.09890255961603868,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,60
+compartment/leaf_temperature_lag1,0.09467369556606452,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,60
+deltaT_raw_lag3,0.09461720829565506,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,60
+compartment/par_lag1,0.08287029251027772,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,60
+compartment/par_lag2,0.0688528596869419,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,60
+compartment/par_lag3,0.06092931987650721,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,60
+compartment/air_temperature_lag3,0.04423031157268058,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,60
+compartment/air_temperature_lag1,0.041995955629216146,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,60
+compartment/air_temperature_lag2,0.03919751330743099,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,60
+deltaT_raw_lag1,0.18982310593128204,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,60
+compartment/leaf_temperature_lag3,0.16071376204490662,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,60
+deltaT_raw_lag2,0.11232630163431168,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,60
+compartment/par_lag1,0.09864506870508194,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,60
+compartment/par_lag2,0.07069769501686096,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,60
+compartment/leaf_temperature_lag1,0.0697617158293724,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,60
+deltaT_raw_lag3,0.061189547181129456,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,60
+compartment/par_lag3,0.05922416225075722,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,60
+compartment/leaf_temperature_lag2,0.056626517325639725,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,60
+compartment/air_temperature_lag3,0.041930582374334335,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,60
+compartment/air_temperature_lag1,0.04040395841002464,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,60
+compartment/air_temperature_lag2,0.03865758329629898,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,60
+energy/electricity_use.lighting_lag3,0.7411841284366386,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+energy/electricity_use.lighting_lag1,0.7356068239161603,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+compartment/window_position_wind_side_lag3,0.5684302383731754,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+compartment/heating_lower_circuit/pipe_temperature_lag1,0.5140923164744851,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+compartment/leaf_temperature_lag1,0.5099649348061925,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+compartment/screen_blackout/screen_position_lag1,0.4251905851042141,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+deltaT_raw_lag1,0.40501725387991194,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+compartment/window_position_wind_side_lag2,0.3894825400496529,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+compartment/air_temperature_lag1,0.3880337979686674,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+compartment/par_lag1,0.35132021382060935,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+deltaT_raw_lag3,0.34379698690445437,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+compartment/air_temperature_lag2,0.3379264751896021,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+deltaT_raw_lag2,0.33379175447174797,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+compartment/screen_blackout/screen_position_lag2,0.27817021570087136,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+compartment/window_position_lee_side_lag3,0.24443955681272325,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+compartment/water_supply/water_flow_duration_lag2,0.23739526969717098,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+compartment/water_supply/water_flow_duration_lag1,0.22487466556840363,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+energy/energy_use.heating_lag2,0.2079517601783713,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+compartment/water_supply/water_flow_duration_lag3,0.19831802028297257,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+compartment/leaf_temperature_lag2,0.17439249109067806,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+compartment/window_position_lee_side_lag1,0.17156346591301141,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+compartment/screen_blackout/screen_position_lag3,0.15657936215284965,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+compartment/window_position_lee_side_lag2,0.15350780985188872,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+compartment/heating_lower_circuit/pipe_temperature_lag2,0.12730987143656045,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+compartment/par_lag2,0.12325327351312501,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+compartment/heating_lower_circuit/pipe_temperature_lag3,0.11315774636447543,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+compartment/leaf_temperature_lag3,0.07387800704000637,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+energy/energy_use.heating_lag1,0.07157469890569117,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+compartment/air_temperature_lag3,0.0675886712858406,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+energy/co2_dosage_lag3,0.06465651215968703,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+energy/electricity_use.lighting_lag2,0.06339516438111141,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+energy/energy_use.heating_lag3,0.03327842460978282,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+compartment/window_position_wind_side_lag1,0.022842739411645555,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+compartment/par_lag3,0.010708395255245307,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+energy/co2_dosage_lag2,0.007033772996725328,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+energy/co2_dosage_lag1,0.006967015651053249,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,60
+deltaT_raw_lag1,0.09268470073455931,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+compartment/leaf_temperature_lag3,0.086755215206858,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+deltaT_raw_lag2,0.08247250023828034,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+compartment/leaf_temperature_lag2,0.07549397134851872,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+compartment/leaf_temperature_lag1,0.06172802364881072,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+deltaT_raw_lag3,0.05751579169117393,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+compartment/par_lag1,0.04389746912367439,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+compartment/par_lag2,0.03517089500834839,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+compartment/par_lag3,0.033890323459758974,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+compartment/air_temperature_lag3,0.02209352652493832,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+compartment/air_temperature_lag2,0.0220840620335911,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+compartment/window_position_lee_side_lag1,0.02168656645691948,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+compartment/heating_lower_circuit/pipe_temperature_lag1,0.02156397568428707,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+energy/energy_use.heating_lag1,0.02106504738966862,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+compartment/air_temperature_lag1,0.02090979305047058,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+compartment/window_position_wind_side_lag1,0.0203062068095191,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+compartment/screen_blackout/screen_position_lag1,0.020114464686541367,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+compartment/water_supply/water_flow_duration_lag1,0.01975473498120401,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+compartment/window_position_lee_side_lag2,0.0195324110890729,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+compartment/water_supply/water_flow_duration_lag3,0.01871523296565818,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+compartment/window_position_wind_side_lag3,0.0187081194484293,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+compartment/window_position_lee_side_lag3,0.018554363481604837,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+compartment/water_supply/water_flow_duration_lag2,0.018179880931768005,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+compartment/window_position_wind_side_lag2,0.01816071699087813,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+compartment/heating_lower_circuit/pipe_temperature_lag2,0.01620001948683205,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+energy/energy_use.heating_lag3,0.016174708912796,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+energy/energy_use.heating_lag2,0.015166367662530648,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+compartment/heating_lower_circuit/pipe_temperature_lag3,0.014706878568860757,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+compartment/screen_blackout/screen_position_lag3,0.014036008701839959,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+compartment/screen_blackout/screen_position_lag2,0.013267640904403324,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+energy/co2_dosage_lag1,0.008626672871579415,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+energy/co2_dosage_lag2,0.008011212932796705,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+energy/co2_dosage_lag3,0.007418162931061919,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+energy/electricity_use.lighting_lag1,0.005316275113901078,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+energy/electricity_use.lighting_lag3,0.005203466693293489,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+energy/electricity_use.lighting_lag2,0.004834592235570833,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,60
+deltaT_raw_lag1,0.0874415710568428,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+compartment/leaf_temperature_lag3,0.0833914503455162,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+deltaT_raw_lag2,0.05477776750922203,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+compartment/screen_blackout/screen_position_lag1,0.042449381202459335,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+energy/energy_use.heating_lag1,0.04184423387050629,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+compartment/par_lag1,0.03844178840517998,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+compartment/water_supply/water_flow_duration_lag3,0.038097530603408813,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+compartment/heating_lower_circuit/pipe_temperature_lag1,0.03791089728474617,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+compartment/leaf_temperature_lag1,0.027430685237050056,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+compartment/screen_blackout/screen_position_lag3,0.026844939216971397,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+deltaT_raw_lag3,0.02681928686797619,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+compartment/leaf_temperature_lag2,0.0265649501234293,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+compartment/par_lag2,0.026311974972486496,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+compartment/screen_blackout/screen_position_lag2,0.025951165705919266,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+compartment/water_supply/water_flow_duration_lag2,0.02535880170762539,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+energy/electricity_use.lighting_lag3,0.023865362629294395,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+energy/energy_use.heating_lag3,0.02326630800962448,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+energy/electricity_use.lighting_lag1,0.02273346483707428,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+compartment/par_lag3,0.021893614903092384,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+compartment/water_supply/water_flow_duration_lag1,0.02139033004641533,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+compartment/window_position_wind_side_lag1,0.019864533096551895,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+compartment/heating_lower_circuit/pipe_temperature_lag2,0.019762344658374786,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+energy/co2_dosage_lag2,0.019289691001176834,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+compartment/window_position_lee_side_lag1,0.019176170229911804,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+energy/co2_dosage_lag1,0.018166514113545418,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+compartment/air_temperature_lag1,0.018141185864806175,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+energy/electricity_use.lighting_lag2,0.01751023344695568,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+compartment/air_temperature_lag2,0.01739647425711155,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+energy/energy_use.heating_lag2,0.01703878492116928,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+compartment/window_position_wind_side_lag2,0.016774894669651985,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+energy/co2_dosage_lag3,0.01658659614622593,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+compartment/air_temperature_lag3,0.016474582254886627,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+compartment/window_position_lee_side_lag3,0.015678897500038147,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+compartment/window_position_wind_side_lag3,0.01567152515053749,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+compartment/heating_lower_circuit/pipe_temperature_lag3,0.015564510598778725,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+compartment/window_position_lee_side_lag2,0.014117519371211529,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,60
+deltaT_raw_lag1,0.42179512819565956,clean,0.9,DT-proxy base,DT_PROXY_BASE,Logistic,logistic,120
+deltaT_raw_lag3,0.3284314451761354,clean,0.9,DT-proxy base,DT_PROXY_BASE,Logistic,logistic,120
+deltaT_raw_lag2,0.15587900796647644,clean,0.9,DT-proxy base,DT_PROXY_BASE,Logistic,logistic,120
+deltaT_raw_lag2,0.340030227698453,clean,0.9,DT-proxy base,DT_PROXY_BASE,RF,rf,120
+deltaT_raw_lag1,0.3392853569444006,clean,0.9,DT-proxy base,DT_PROXY_BASE,RF,rf,120
+deltaT_raw_lag3,0.3206844153571465,clean,0.9,DT-proxy base,DT_PROXY_BASE,RF,rf,120
+deltaT_raw_lag2,0.37748855352401733,clean,0.9,DT-proxy base,DT_PROXY_BASE,XGBoost,xgb,120
+deltaT_raw_lag1,0.372237890958786,clean,0.9,DT-proxy base,DT_PROXY_BASE,XGBoost,xgb,120
+deltaT_raw_lag3,0.2502734661102295,clean,0.9,DT-proxy base,DT_PROXY_BASE,XGBoost,xgb,120
+compartment/leaf_temperature_lag3,0.3578185863060749,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,120
+deltaT_raw_lag3,0.34557171561120814,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,120
+compartment/par_lag1,0.31189723981199063,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,120
+deltaT_raw_lag1,0.2883417168100654,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,120
+compartment/air_temperature_lag3,0.24582108114155463,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,120
+compartment/par_lag3,0.17885134921898377,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,120
+deltaT_raw_lag2,0.14017131170304595,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,120
+compartment/par_lag2,0.13050290118909097,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,120
+compartment/air_temperature_lag1,0.06865666852192652,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,120
+compartment/leaf_temperature_lag1,0.05128236564194388,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,120
+compartment/air_temperature_lag2,0.029311884557943906,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,120
+compartment/leaf_temperature_lag2,0.02855681630152554,clean,0.9,Causal-parents,CAUSAL_PARENTS,Logistic,logistic,120
+compartment/leaf_temperature_lag3,0.129588016943093,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,120
+compartment/leaf_temperature_lag1,0.11612026281134559,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,120
+compartment/leaf_temperature_lag2,0.11389269253549054,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,120
+compartment/par_lag1,0.08757256762993469,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,120
+compartment/par_lag2,0.08506427639923472,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,120
+deltaT_raw_lag3,0.0795545457277049,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,120
+compartment/par_lag3,0.07822954126554074,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,120
+deltaT_raw_lag2,0.07679492148257944,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,120
+deltaT_raw_lag1,0.0734767515309357,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,120
+compartment/air_temperature_lag3,0.05908204621363853,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,120
+compartment/air_temperature_lag2,0.05371508551785279,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,120
+compartment/air_temperature_lag1,0.04690929194264929,clean,0.9,Causal-parents,CAUSAL_PARENTS,RF,rf,120
+compartment/leaf_temperature_lag3,0.1998257040977478,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,120
+compartment/leaf_temperature_lag1,0.18119080364704132,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,120
+compartment/par_lag1,0.08684397488832474,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,120
+compartment/par_lag3,0.07593555748462677,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,120
+deltaT_raw_lag3,0.07376162707805634,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,120
+deltaT_raw_lag2,0.06424534320831299,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,120
+compartment/par_lag2,0.0639115646481514,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,120
+deltaT_raw_lag1,0.05806973576545715,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,120
+compartment/air_temperature_lag2,0.053136348724365234,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,120
+compartment/air_temperature_lag1,0.04973698779940605,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,120
+compartment/leaf_temperature_lag2,0.047421909868717194,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,120
+compartment/air_temperature_lag3,0.04592036083340645,clean,0.9,Causal-parents,CAUSAL_PARENTS,XGBoost,xgb,120
+energy/electricity_use.lighting_lag3,0.6693187195490092,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+energy/energy_use.heating_lag3,0.595519630636478,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+compartment/water_supply/water_flow_duration_lag1,0.5328939745884054,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+compartment/heating_lower_circuit/pipe_temperature_lag3,0.454016134511208,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+deltaT_raw_lag3,0.4330010311369417,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+compartment/par_lag1,0.33536988999950795,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+compartment/water_supply/water_flow_duration_lag3,0.3351715351079096,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+energy/energy_use.heating_lag2,0.33036030571913305,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+compartment/leaf_temperature_lag3,0.29558358133740037,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+deltaT_raw_lag1,0.2772039090956662,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+energy/energy_use.heating_lag1,0.26021499073565896,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+compartment/window_position_lee_side_lag3,0.22454268578597522,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+compartment/window_position_wind_side_lag2,0.2222544770536731,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+compartment/heating_lower_circuit/pipe_temperature_lag2,0.22193129909819245,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+compartment/screen_blackout/screen_position_lag1,0.18964098518325534,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+energy/electricity_use.lighting_lag2,0.18705396883964545,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+compartment/window_position_lee_side_lag1,0.16068016320243153,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+compartment/screen_blackout/screen_position_lag2,0.15713920344421703,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+energy/electricity_use.lighting_lag1,0.1515151448822137,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+compartment/air_temperature_lag3,0.13900353968875803,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+compartment/heating_lower_circuit/pipe_temperature_lag1,0.1362169966188268,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+deltaT_raw_lag2,0.10987229554518674,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+compartment/leaf_temperature_lag1,0.10204426505899741,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+compartment/window_position_wind_side_lag1,0.08976913283998494,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+compartment/leaf_temperature_lag2,0.08046752865145541,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+compartment/screen_blackout/screen_position_lag3,0.0784229279788609,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+compartment/par_lag2,0.07779256546044427,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+compartment/window_position_lee_side_lag2,0.0666956817705844,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+compartment/water_supply/water_flow_duration_lag2,0.05255505298837939,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+compartment/air_temperature_lag2,0.04129460564519449,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+compartment/window_position_wind_side_lag3,0.04072235004618949,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+energy/co2_dosage_lag2,0.021214453860760863,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+energy/co2_dosage_lag3,0.014980317830807732,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+compartment/par_lag3,0.012449358687707641,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+energy/co2_dosage_lag1,0.010766007003512804,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+compartment/air_temperature_lag1,0.007624043357079647,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,Logistic,logistic,120
+compartment/leaf_temperature_lag3,0.08841195420721026,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+compartment/leaf_temperature_lag2,0.08536244101127181,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+compartment/leaf_temperature_lag1,0.0798283693959737,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+deltaT_raw_lag1,0.05313504446408323,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+deltaT_raw_lag3,0.05009152288095188,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+deltaT_raw_lag2,0.04850646894843183,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+compartment/par_lag1,0.04437433642082517,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+compartment/par_lag2,0.0430917061490394,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+compartment/par_lag3,0.04263131426942573,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+compartment/air_temperature_lag3,0.033374962241840146,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+compartment/air_temperature_lag1,0.029282982053706347,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+compartment/air_temperature_lag2,0.02790583280684504,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+compartment/screen_blackout/screen_position_lag1,0.027863744347404292,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+compartment/screen_blackout/screen_position_lag3,0.026121642421221496,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+compartment/window_position_wind_side_lag3,0.022768084399591885,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+compartment/screen_blackout/screen_position_lag2,0.022524104701142716,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+compartment/window_position_wind_side_lag2,0.02201146490945774,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+compartment/window_position_wind_side_lag1,0.02090317883539585,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+compartment/window_position_lee_side_lag3,0.020852842907517845,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+compartment/window_position_lee_side_lag1,0.02026296021939799,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+compartment/window_position_lee_side_lag2,0.019779506620041735,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+compartment/water_supply/water_flow_duration_lag3,0.018127837644179086,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+compartment/water_supply/water_flow_duration_lag2,0.018089724020407576,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+compartment/water_supply/water_flow_duration_lag1,0.016913830949971873,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+compartment/heating_lower_circuit/pipe_temperature_lag1,0.015501276192309933,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+energy/energy_use.heating_lag1,0.014868726152697728,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+energy/energy_use.heating_lag3,0.013252306799314696,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+compartment/heating_lower_circuit/pipe_temperature_lag3,0.01116934295930238,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+energy/energy_use.heating_lag2,0.01076070213991034,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+compartment/heating_lower_circuit/pipe_temperature_lag2,0.01074329340413399,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+energy/electricity_use.lighting_lag3,0.0077730523784011775,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+energy/co2_dosage_lag3,0.007342850173903435,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+energy/co2_dosage_lag2,0.006927885569007132,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+energy/co2_dosage_lag1,0.00681971193048178,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+energy/electricity_use.lighting_lag1,0.006315599473252475,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+energy/electricity_use.lighting_lag2,0.006309396001950177,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,RF,rf,120
+compartment/screen_blackout/screen_position_lag2,0.13416655361652374,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+compartment/leaf_temperature_lag3,0.09711918979883194,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+compartment/leaf_temperature_lag1,0.07611936330795288,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+energy/energy_use.heating_lag1,0.04529435560107231,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+compartment/screen_blackout/screen_position_lag1,0.03842267766594887,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+compartment/heating_lower_circuit/pipe_temperature_lag1,0.03181206434965134,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+compartment/water_supply/water_flow_duration_lag3,0.031406499445438385,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+energy/electricity_use.lighting_lag3,0.030935188755393028,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+compartment/par_lag1,0.03087797947227955,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+compartment/screen_blackout/screen_position_lag3,0.028339330106973648,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+deltaT_raw_lag3,0.027078209444880486,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+compartment/leaf_temperature_lag2,0.02283983677625656,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+deltaT_raw_lag2,0.02230720967054367,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+compartment/water_supply/water_flow_duration_lag1,0.021687941625714302,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+energy/electricity_use.lighting_lag1,0.021647470071911812,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+deltaT_raw_lag1,0.021520279347896576,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+compartment/par_lag3,0.020850909873843193,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+compartment/par_lag2,0.02084219455718994,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+compartment/water_supply/water_flow_duration_lag2,0.020325101912021637,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+compartment/air_temperature_lag3,0.018251411616802216,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+energy/electricity_use.lighting_lag2,0.017889035865664482,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+compartment/window_position_wind_side_lag3,0.017612090334296227,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+compartment/air_temperature_lag1,0.017451247200369835,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+compartment/window_position_wind_side_lag2,0.017402207478880882,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+compartment/air_temperature_lag2,0.017224198207259178,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+energy/co2_dosage_lag2,0.017142001539468765,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+compartment/window_position_wind_side_lag1,0.016210859641432762,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+compartment/window_position_lee_side_lag2,0.01492930855602026,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+compartment/window_position_lee_side_lag3,0.014558978378772736,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+energy/energy_use.heating_lag3,0.01412354875355959,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+compartment/window_position_lee_side_lag1,0.013722678646445274,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+compartment/heating_lower_circuit/pipe_temperature_lag3,0.013681713491678238,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+energy/co2_dosage_lag3,0.012165213003754616,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+energy/co2_dosage_lag1,0.011679988354444504,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+energy/energy_use.heating_lag2,0.01153104193508625,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120
+compartment/heating_lower_circuit/pipe_temperature_lag2,0.01083206757903099,clean,0.9,Causal+Lagged Controls,CAUSAL_PLUS_ACTION_LAGGED,XGBoost,xgb,120

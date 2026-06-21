@@ -1,0 +1,18 @@
+feature_setting_key,feature_setting,feature_order,input_variable
+DT_PROXY_BASE,DT-proxy base,1,deltaT_raw
+CAUSAL_PARENTS,Causal-parents,1,compartment/leaf_temperature
+CAUSAL_PARENTS,Causal-parents,2,compartment/air_temperature
+CAUSAL_PARENTS,Causal-parents,3,compartment/par
+CAUSAL_PARENTS,Causal-parents,4,deltaT_raw
+CAUSAL_PLUS_ACTION_LAGGED,Causal+Lagged Controls,1,compartment/leaf_temperature
+CAUSAL_PLUS_ACTION_LAGGED,Causal+Lagged Controls,2,compartment/air_temperature
+CAUSAL_PLUS_ACTION_LAGGED,Causal+Lagged Controls,3,compartment/par
+CAUSAL_PLUS_ACTION_LAGGED,Causal+Lagged Controls,4,deltaT_raw
+CAUSAL_PLUS_ACTION_LAGGED,Causal+Lagged Controls,5,energy/energy_use.heating
+CAUSAL_PLUS_ACTION_LAGGED,Causal+Lagged Controls,6,energy/electricity_use.lighting
+CAUSAL_PLUS_ACTION_LAGGED,Causal+Lagged Controls,7,energy/co2_dosage
+CAUSAL_PLUS_ACTION_LAGGED,Causal+Lagged Controls,8,compartment/screen_blackout/screen_position
+CAUSAL_PLUS_ACTION_LAGGED,Causal+Lagged Controls,9,compartment/window_position_lee_side
+CAUSAL_PLUS_ACTION_LAGGED,Causal+Lagged Controls,10,compartment/window_position_wind_side
+CAUSAL_PLUS_ACTION_LAGGED,Causal+Lagged Controls,11,compartment/water_supply/water_flow_duration
+CAUSAL_PLUS_ACTION_LAGGED,Causal+Lagged Controls,12,compartment/heating_lower_circuit/pipe_temperature

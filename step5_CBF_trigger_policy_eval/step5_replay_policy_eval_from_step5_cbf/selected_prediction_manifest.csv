@@ -1,0 +1,5 @@
+﻿horizon_minutes,selected_feature_set,selected_feature_display_name,selected_model,n_prediction_rows,selection_reason
+10,TwoStage_CBF_AirT_PAR,Two-stage CBF,PatchTST,5040,exact selected Two-stage CBF configuration
+30,TwoStage_CBF_AirT_PAR,Two-stage CBF,PatchTST,5040,exact selected Two-stage CBF configuration
+60,TwoStage_CBF_AirT_PAR,Two-stage CBF,PatchTST,5040,exact selected Two-stage CBF configuration
+120,TwoStage_CBF_AirT_PAR,Two-stage CBF,PatchTST,5040,exact selected Two-stage CBF configuration

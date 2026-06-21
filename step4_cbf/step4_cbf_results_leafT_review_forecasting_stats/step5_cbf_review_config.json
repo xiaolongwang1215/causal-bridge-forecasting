@@ -1,0 +1,97 @@
+{
+  "input_csv": "D:\\JetBrains\\Python\\PyCharmProjects\\GreenHouse·TomatoExperimentTriggerImprovement\\step0_clean_build\\step0_results\\data_trigger_mainmodel_raw.csv",
+  "minutes_per_step": 10,
+  "horizons_steps": [
+    1,
+    3,
+    6,
+    12
+  ],
+  "leafT_lags": [
+    1,
+    2,
+    3
+  ],
+  "state_lags": [
+    1
+  ],
+  "causal_lag1": [
+    1
+  ],
+  "causal_window_lags": [
+    1,
+    2,
+    3
+  ],
+  "action_lags": [
+    1
+  ],
+  "rolling_folds": 5,
+  "test_window_days": 7,
+  "val_window_days": 7,
+  "min_train_samples": 2000,
+  "models_classical": [
+    "Ridge",
+    "RF",
+    "XGBoost"
+  ],
+  "deep_models_enabled": true,
+  "deep_models_available": [
+    "PatchTST",
+    "iTransformer",
+    "TimeMixer"
+  ],
+  "deep_feature_sets": [
+    "AR_only",
+    "AR_AirT",
+    "AR_AirT_PAR",
+    "AR-LeafParents",
+    "AR_AirT_PAR_window",
+    "TwoStage_CBF_AirT_PAR",
+    "TwoStage_CBF_AirT_PAR_Residual"
+  ],
+  "feature_display_name": {
+    "AR_only": "AR-only",
+    "AR_AirT": "AR-AirT",
+    "AR_PAR": "AR-PAR",
+    "AR_AirT_PAR": "AR-AirT-PAR",
+    "AR-LeafParents": "AR-LeafParents",
+    "AR_AirT_PAR_window": "AR-LeafParents-window",
+    "AR_AllState": "AR-AllState",
+    "TwoStage_CBF_AirT_PAR": "Two-stage CBF",
+    "TwoStage_CBF_AirT_PAR_Residual": "Two-stage CBF-residual",
+    "TwoStage_CBF_AirT_PAR_ValidationSelected": "Two-stage CBF-validation"
+  },
+  "main_manuscript_feature_sets": [
+    "AR_only",
+    "AR_AirT",
+    "AR-LeafParents",
+    "TwoStage_CBF_AirT_PAR"
+  ],
+  "stageA_algo": "Ridge",
+  "validation_selection_algos": [
+    "Ridge",
+    "RF",
+    "XGBoost"
+  ],
+  "bridge_parent_actions": {
+    "compartment/air_temperature": [
+      "compartment/window_position_lee_side",
+      "compartment/window_position_wind_side",
+      "energy/energy_use.heating",
+      "energy/co2_dosage",
+      "energy/electricity_use.lighting",
+      "compartment/water_supply/water_flow_duration",
+      "compartment/heating_lower_circuit/pipe_temperature"
+    ],
+    "compartment/par": [
+      "energy/co2_dosage",
+      "energy/electricity_use.lighting",
+      "compartment/screen_blackout/screen_position"
+    ]
+  },
+  "seed": 2026,
+  "has_xgboost": true,
+  "has_scipy": true,
+  "has_torch": true
+}

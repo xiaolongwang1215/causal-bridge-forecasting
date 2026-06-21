@@ -1,0 +1,5 @@
+﻿Fixed τmax,Time window,Total edges,Leaf_T parents,Air_T→Leaf_T,PAR→Leaf_T,Leaf_T→Leaf_T,Air_T-mediated paths,PAR-mediated paths,MAE,RMSE,R2
+3,30 min,89,5,Yes,Yes,Yes,6,2,0.0513,0.0700,0.9876
+6,60 min,109,6,Yes,Yes,Yes,6,2,0.0555,0.0757,0.9857
+9,90 min,115,8,Yes,Yes,Yes,6,2,0.0533,0.0729,0.9867
+12,120 min,118,7,Yes,Yes,Yes,7,2,0.0508,0.0701,0.9875

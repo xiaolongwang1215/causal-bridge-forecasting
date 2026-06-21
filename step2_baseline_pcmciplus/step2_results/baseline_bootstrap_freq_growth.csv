@@ -1,0 +1,4 @@
+﻿source,target,lag,count,B,freq,mean_val,tau_max,pc_alpha,alpha_level,fdr,block_len,seed,max_conds_dim,max_conds_px,max_conds_py,parent_restrict,topk_fast,topk_growth,ar_fast,ar_growth,growth_target,delta_7d_lag_points
+delta_mass_7d,delta_mass_7d,1,30,30,1.0,0.7115000694308389,288,0.1,0.1,False,144,20260211,,,,True,30,30,3,1,delta_mass_7d,1008
+substrate_relative_permittivity_mean,delta_mass_7d,1,1,30,0.03333333333333333,-0.02015105751683658,288,0.1,0.1,False,144,20260211,,,,True,30,30,3,1,delta_mass_7d,1008
+substrate_bulk_ec_mean,delta_mass_7d,1,1,30,0.03333333333333333,0.019652594424911844,288,0.1,0.1,False,144,20260211,,,,True,30,30,3,1,delta_mass_7d,1008

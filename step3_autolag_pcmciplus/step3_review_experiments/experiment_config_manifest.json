@@ -1,0 +1,60 @@
+{
+  "script": "step3_3_autolag_pcmciplus_review_experiments.py",
+  "purpose": "Reviewer-response AutoLag-PCMCI+ ablation, sensitivity, runtime, and edge-detail experiments",
+  "python": "3.10.19 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 16:41:31) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",
+  "cpu_count": 24,
+  "tigramite_version": "unknown",
+  "input_csv": "D:\\JetBrains\\Python\\PyCharmProjects\\GreenHouse·TomatoExperimentTriggerImprovement\\step0_clean_build\\step0_results\\data_trigger_mainmodel_z.csv",
+  "n_samples": 11455,
+  "n_variables": 17,
+  "variables": [
+    "compartment/leaf_temperature",
+    "compartment/air_temperature",
+    "compartment/humidity_deficit",
+    "compartment/co2_concentration",
+    "compartment/par",
+    "substrate_relative_permittivity_mean",
+    "substrate_bulk_ec_mean",
+    "substrate_temperature_mean",
+    "energy/energy_use.heating",
+    "energy/electricity_use.lighting",
+    "energy/co2_dosage",
+    "compartment/screen_energy/screen_position",
+    "compartment/screen_blackout/screen_position",
+    "compartment/water_supply/water_flow_duration",
+    "compartment/window_position_lee_side",
+    "compartment/window_position_wind_side",
+    "compartment/heating_lower_circuit/pipe_temperature"
+  ],
+  "pc_alpha": 0.1,
+  "alpha_level": 0.1,
+  "tau_min": 0,
+  "fixed_tau_max": 12,
+  "bootstrap_reps": 30,
+  "bootstrap_block_size": 144,
+  "bootstrap_thresholds": [
+    0.5,
+    0.6,
+    0.7,
+    0.8
+  ],
+  "lag_window_values": [
+    3,
+    6,
+    9,
+    12
+  ],
+  "cv_n_splits": 5,
+  "cv_val_size": 1008,
+  "cv_val_days": 7,
+  "min_train": 2000,
+  "ridge_alpha": 1.0,
+  "random_seed": 2026,
+  "notes": [
+    "AutoLag variants use target-specific tau_hat only as lag-window limits.",
+    "Parent candidates are not pre-restricted to previously significant Step3 parents in ablation variants.",
+    "Runtime excludes manual interpretation but includes PCMCI+ and bootstrap computations inside each variant."
+  ]
+}

@@ -1,0 +1,3 @@
+sensor_scenario,event_q,horizon_min,model,algorithm,env_type,n,positive_rate
+noise_5,0.85,30,DT-proxy base,RF,high_vpd,1950,0.19641025641025642
+noise_5,0.85,30,DT-proxy base,RF,high_par,1955,0.14731457800511508

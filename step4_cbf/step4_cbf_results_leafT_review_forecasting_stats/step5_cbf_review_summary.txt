@@ -1,0 +1,26 @@
+Step5 | CBF Leaf_T review-response forecasting summary
+================================================================================
+Input CSV: D:\JetBrains\Python\PyCharmProjects\GreenHouse·TomatoExperimentTriggerImprovement\step0_clean_build\step0_results\data_trigger_mainmodel_raw.csv
+Output directory: D:\JetBrains\Python\PyCharmProjects\GreenHouse·TomatoExperimentTriggerImprovement\step5_cbf\step5_cbf_results_leafT_review_forecasting_stats
+Total runtime: 1704.64 s
+Horizons: [10, 30, 60, 120] min
+Classical models: ['Ridge', 'RF', 'XGBoost']
+Deep models used: ['PatchTST', 'iTransformer', 'TimeMixer']
+
+Feature configurations:
+- AR-only [AR_only]: Leaf_T autoregressive lags only (Autoregressive baseline)
+- AR-AirT [AR_AirT]: Leaf_T lags plus Air_T lag (Thermal bridge direct-parent baseline)
+- AR-PAR [AR_PAR]: Leaf_T lags plus PAR lag (Radiation bridge direct-parent baseline)
+- AR-AirT-PAR [AR_AirT_PAR]: Leaf_T lags plus Air_T and PAR lags (Direct causal-parent feature configuration based on revised Fig. 4/Table x4)
+- AR-LeafParents [AR-LeafParents]: Leaf_T(t-1), Air_T(t-1), and PAR(t-1) (Strict significant-lag causal-parent feature configuration)
+- AR-LeafParents-window [AR_AirT_PAR_window]: Leaf_T lags plus short lag-window features of Air_T and PAR (Causal-parent lag-window feature configuration)
+- AR-AllState [AR_AllState]: Leaf_T lags plus Air_T, PAR, VPD, and CO2_C lags if available (Expanded state-feature baseline, not the main constrained CBF configuration)
+- Two-stage CBF [TwoStage_CBF_AirT_PAR]: Stage A predicts Air_T and PAR from their action parents; Stage B predicts Leaf_T from Leaf_T lags plus Air_T_hat and PAR_hat (Causally constrained Action→State→Physiology bridge-forecasting configuration)
+- Two-stage CBF-residual [TwoStage_CBF_AirT_PAR_Residual]: Residual two-stage CBF using Leaf_T lags, observed Air_T/PAR lags, and predicted Air_T_hat/PAR_hat (Error-propagation-mitigated causal bridge configuration)
+- Two-stage CBF-validation [TwoStage_CBF_AirT_PAR_ValidationSelected]: Two-stage CBF with Stage-A and Stage-B learners selected by validation RMSE (Validation-selected causal bridge configuration without test-set model selection)
+
+Best configurations by horizon based on mean RMSE:
+- 10 min: AR-AirT [AR_AirT] | Ridge | MAE=0.191±0.024, RMSE=0.258±0.042, R2=0.969±0.012
+- 30 min: AR-AirT [AR_AirT] | TimeMixer | MAE=0.282±0.078, RMSE=0.391±0.116, R2=0.925±0.050
+- 60 min: AR-AirT-PAR [AR_AirT_PAR] | PatchTST | MAE=0.431±0.111, RMSE=0.570±0.152, R2=0.845±0.076
+- 120 min: Two-stage CBF [TwoStage_CBF_AirT_PAR] | PatchTST | MAE=0.762±0.094, RMSE=0.953±0.115, R2=0.589±0.082

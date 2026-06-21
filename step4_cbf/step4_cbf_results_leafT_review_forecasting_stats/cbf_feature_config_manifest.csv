@@ -1,0 +1,11 @@
+﻿feature_set,manuscript_feature_configuration,feature_description,causal_role,main_manuscript_configuration
+AR_only,AR-only,Leaf_T autoregressive lags only,Autoregressive baseline,True
+AR_AirT,AR-AirT,Leaf_T lags plus Air_T lag,Thermal bridge direct-parent baseline,True
+AR_PAR,AR-PAR,Leaf_T lags plus PAR lag,Radiation bridge direct-parent baseline,False
+AR_AirT_PAR,AR-AirT-PAR,Leaf_T lags plus Air_T and PAR lags,Direct causal-parent feature configuration based on revised Fig. 4/Table x4,False
+AR-LeafParents,AR-LeafParents,"Leaf_T(t-1), Air_T(t-1), and PAR(t-1)",Strict significant-lag causal-parent feature configuration,True
+AR_AirT_PAR_window,AR-LeafParents-window,Leaf_T lags plus short lag-window features of Air_T and PAR,Causal-parent lag-window feature configuration,False
+AR_AllState,AR-AllState,"Leaf_T lags plus Air_T, PAR, VPD, and CO2_C lags if available","Expanded state-feature baseline, not the main constrained CBF configuration",False
+TwoStage_CBF_AirT_PAR,Two-stage CBF,Stage A predicts Air_T and PAR from their action parents; Stage B predicts Leaf_T from Leaf_T lags plus Air_T_hat and PAR_hat,Causally constrained Action→State→Physiology bridge-forecasting configuration,True
+TwoStage_CBF_AirT_PAR_Residual,Two-stage CBF-residual,"Residual two-stage CBF using Leaf_T lags, observed Air_T/PAR lags, and predicted Air_T_hat/PAR_hat",Error-propagation-mitigated causal bridge configuration,False
+TwoStage_CBF_AirT_PAR_ValidationSelected,Two-stage CBF-validation,Two-stage CBF with Stage-A and Stage-B learners selected by validation RMSE,Validation-selected causal bridge configuration without test-set model selection,False

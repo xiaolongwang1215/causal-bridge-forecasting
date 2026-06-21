@@ -1,0 +1,5 @@
+﻿bootstrap_threshold,n_stable_edges,n_stable_leaf_parents,air_t_to_leaf_t_stable,mean_abs_edge_strength,max_abs_edge_strength
+0.5,48,3,True,0.3222501740139438,0.8847141802220531
+0.6,46,3,True,0.3352472629966632,0.8847141802220531
+0.7,41,3,True,0.3644603690170725,0.8847141802220531
+0.8,36,3,True,0.4069051515430662,0.8847141802220531

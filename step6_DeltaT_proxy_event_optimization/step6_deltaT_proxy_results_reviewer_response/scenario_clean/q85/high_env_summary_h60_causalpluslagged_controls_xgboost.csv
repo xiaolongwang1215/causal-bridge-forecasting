@@ -1,0 +1,3 @@
+sensor_scenario,event_q,horizon_min,model,algorithm,env_type,n,positive_rate
+clean,0.85,60,Causal+Lagged Controls,XGBoost,high_vpd,1951,0.22603792926704255
+clean,0.85,60,Causal+Lagged Controls,XGBoost,high_par,1953,0.16948284690220175

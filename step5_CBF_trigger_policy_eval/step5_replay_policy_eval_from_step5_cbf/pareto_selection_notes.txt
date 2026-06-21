@@ -1,0 +1,17 @@
+Pareto-based operating-point selection notes
+===========================================
+
+Selection rule:
+- Default Rule policy is used as the safety-risk reference at each horizon.
+- CBF settings are searched over the full grid of safety margin m, reduction ratio r, and conservativeness k.
+- The selected CBF point maximizes overall resource-saving score subject to observed violation no greater than the default Rule policy.
+- If no feasible CBF point exists, the safest CBF point is reported as a fallback.
+
+Number of horizons where selected CBF dominates the default Rule policy: 3/4
+
+Horizon 10 min: CBF overall saving=39.658%, Rule reference saving=59.071%, CBF violation=0.060%, Rule reference violation=0.123%, dominates=False, m=1.5, r=1.0, k=0.0
+Horizon 30 min: CBF overall saving=59.189%, Rule reference saving=59.075%, CBF violation=2.010%, Rule reference violation=2.176%, dominates=True, m=0.0, r=1.0, k=1.0
+Horizon 60 min: CBF overall saving=64.516%, Rule reference saving=59.054%, CBF violation=4.978%, Rule reference violation=5.600%, dominates=True, m=0.25, r=1.0, k=0.0
+Horizon 120 min: CBF overall saving=68.023%, Rule reference saving=59.158%, CBF violation=10.918%, Rule reference violation=11.930%, dominates=True, m=0.0, r=1.0, k=0.5
+
+Total CBF candidate settings that dominate default Rule: 14

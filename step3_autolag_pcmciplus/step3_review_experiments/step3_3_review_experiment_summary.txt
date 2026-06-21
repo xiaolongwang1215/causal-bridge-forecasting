@@ -1,0 +1,17 @@
+Step3_3 AutoLag-PCMCI+ review-response experiments
+========================================================================
+Input: D:\JetBrains\Python\PyCharmProjects\GreenHouse·TomatoExperimentTriggerImprovement\step0_clean_build\step0_results\data_trigger_mainmodel_z.csv
+Output: D:\JetBrains\Python\PyCharmProjects\GreenHouse·TomatoExperimentTriggerImprovement\step3_autolag_pcmciplus\step3_review_experiments
+T=11455, N=17
+pc_alpha=0.1, alpha_level=0.1, tau_min=0
+fixed_tau_max=12
+bootstrap_reps=30, block_size=144
+AutoLag search seconds: 26713.053
+Total script seconds: 27108.338
+
+Ablation summary:
+                        method  use_autolag  use_hierarchy  fixed_tau_max  global_tau_max  leaf_tau_hat  n_total_edges  n_leaf_parents  n_inadmissible_edges  air_t_to_leaf_t_identified  mean_abs_edge_strength  max_abs_edge_strength  final_pcmciplus_seconds  bootstrap_seconds  total_variant_seconds  bootstrap_reps  bootstrap_threshold_for_summary  forecast_mae  forecast_mae_sd  forecast_rmse  forecast_rmse_sd  forecast_r2  forecast_n_features  forecast_n_folds  autolag_search_seconds_shared  total_with_autolag_seconds
+            standard_pcmciplus        False          False             12              12            12            198               8                    88                        True                0.124704               0.849501                86.366657            0.00000              86.366657               0                              0.6      0.054067         0.005684       0.073833          0.007637     0.986369                    8                 5                       0.000000                   86.366657
+        hierarchical_pcmciplus        False           True             12              12            12            118               7                     0                        True                0.173802               0.885238                22.846177            0.00000              22.846177               0                              0.6      0.050803         0.004939       0.070141          0.008008     0.987490                    7                 5                       0.000000                   22.846177
+             autolag_pcmciplus         True          False             12              36             1            116               4                    61                        True                0.169928               0.852486                26.976450            0.00000              26.976450               0                              0.6      0.053268         0.005441       0.072405          0.007634     0.986737                    4                 5                   26713.052525                26740.028975
+hierarchical_autolag_pcmciplus         True           True             12              36             1             74               3                     0                        True                0.227508               0.884714                11.270717          183.60844             194.879157              30                              0.6      0.052749         0.005014       0.071624          0.007151     0.987006                    3                 5                   26713.052525                26907.931682

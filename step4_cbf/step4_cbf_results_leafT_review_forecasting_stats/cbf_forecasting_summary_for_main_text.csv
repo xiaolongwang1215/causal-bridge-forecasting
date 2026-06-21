@@ -1,0 +1,97 @@
+﻿Horizon (min),Model,Feature configuration,Internal feature_set,Folds,MAE,RMSE,R2,Runtime (s)
+10,Ridge,AR-AirT,AR_AirT,5,0.191 ± 0.024,0.258 ± 0.042,0.969 ± 0.012,0.00 ± 0.00
+10,PatchTST,AR-only,AR_only,5,0.184 ± 0.019,0.258 ± 0.034,0.969 ± 0.009,5.96 ± 2.05
+10,TimeMixer,AR-only,AR_only,5,0.186 ± 0.023,0.260 ± 0.037,0.969 ± 0.010,4.17 ± 0.57
+10,RF,AR-only,AR_only,5,0.200 ± 0.016,0.277 ± 0.026,0.965 ± 0.008,0.25 ± 0.01
+10,Ridge,AR-LeafParents,AR-LeafParents,5,0.213 ± 0.020,0.278 ± 0.026,0.965 ± 0.006,0.00 ± 0.00
+10,XGBoost,AR-only,AR_only,5,0.204 ± 0.014,0.282 ± 0.026,0.963 ± 0.009,0.13 ± 0.01
+10,Ridge,Two-stage CBF,TwoStage_CBF_AirT_PAR,5,0.216 ± 0.019,0.283 ± 0.025,0.964 ± 0.006,0.00 ± 0.00
+10,Ridge,AR-only,AR_only,5,0.217 ± 0.018,0.295 ± 0.033,0.960 ± 0.010,0.01 ± 0.01
+10,PatchTST,Two-stage CBF,TwoStage_CBF_AirT_PAR,5,0.217 ± 0.072,0.300 ± 0.104,0.959 ± 0.019,4.08 ± 1.79
+10,PatchTST,AR-AirT,AR_AirT,5,0.219 ± 0.098,0.302 ± 0.127,0.958 ± 0.025,4.16 ± 2.38
+10,PatchTST,AR-LeafParents,AR-LeafParents,5,0.227 ± 0.044,0.302 ± 0.060,0.958 ± 0.013,2.64 ± 1.04
+10,TimeMixer,AR-AirT,AR_AirT,5,0.227 ± 0.069,0.319 ± 0.109,0.954 ± 0.023,3.28 ± 1.55
+10,iTransformer,AR-AirT,AR_AirT,5,0.240 ± 0.048,0.322 ± 0.061,0.953 ± 0.013,3.83 ± 2.15
+10,TimeMixer,AR-LeafParents,AR-LeafParents,5,0.249 ± 0.080,0.329 ± 0.107,0.951 ± 0.020,2.74 ± 0.92
+10,TimeMixer,Two-stage CBF,TwoStage_CBF_AirT_PAR,5,0.257 ± 0.076,0.339 ± 0.091,0.948 ± 0.018,3.43 ± 0.67
+10,RF,AR-AirT,AR_AirT,5,0.260 ± 0.081,0.369 ± 0.121,0.938 ± 0.030,0.27 ± 0.02
+10,XGBoost,AR-AirT,AR_AirT,5,0.264 ± 0.087,0.371 ± 0.128,0.937 ± 0.030,0.08 ± 0.00
+10,XGBoost,Two-stage CBF,TwoStage_CBF_AirT_PAR,5,0.272 ± 0.086,0.372 ± 0.118,0.937 ± 0.028,0.10 ± 0.00
+10,iTransformer,AR-only,AR_only,5,0.274 ± 0.032,0.377 ± 0.047,0.935 ± 0.015,5.01 ± 2.33
+10,iTransformer,Two-stage CBF,TwoStage_CBF_AirT_PAR,5,0.289 ± 0.067,0.377 ± 0.074,0.935 ± 0.021,6.30 ± 2.77
+10,RF,Two-stage CBF,TwoStage_CBF_AirT_PAR,5,0.276 ± 0.082,0.378 ± 0.117,0.935 ± 0.027,0.30 ± 0.03
+10,XGBoost,AR-LeafParents,AR-LeafParents,5,0.313 ± 0.097,0.413 ± 0.125,0.923 ± 0.030,0.10 ± 0.01
+10,RF,AR-LeafParents,AR-LeafParents,5,0.384 ± 0.115,0.500 ± 0.155,0.887 ± 0.050,0.25 ± 0.02
+10,iTransformer,AR-LeafParents,AR-LeafParents,5,0.685 ± 0.310,0.875 ± 0.330,0.646 ± 0.200,3.88 ± 2.73
+30,TimeMixer,AR-AirT,AR_AirT,5,0.282 ± 0.078,0.391 ± 0.116,0.925 ± 0.050,2.77 ± 2.01
+30,PatchTST,AR-AirT,AR_AirT,5,0.298 ± 0.067,0.399 ± 0.092,0.925 ± 0.032,3.59 ± 1.52
+30,PatchTST,Two-stage CBF,TwoStage_CBF_AirT_PAR,5,0.319 ± 0.076,0.423 ± 0.092,0.918 ± 0.026,4.20 ± 1.79
+30,Ridge,AR-AirT,AR_AirT,5,0.326 ± 0.044,0.424 ± 0.075,0.916 ± 0.034,0.00 ± 0.00
+30,PatchTST,AR-only,AR_only,5,0.308 ± 0.034,0.428 ± 0.061,0.915 ± 0.027,6.68 ± 3.10
+30,TimeMixer,AR-only,AR_only,5,0.314 ± 0.040,0.436 ± 0.066,0.912 ± 0.030,4.26 ± 0.82
+30,Ridge,Two-stage CBF,TwoStage_CBF_AirT_PAR,5,0.366 ± 0.030,0.460 ± 0.038,0.904 ± 0.017,0.00 ± 0.00
+30,iTransformer,AR-AirT,AR_AirT,5,0.336 ± 0.094,0.460 ± 0.144,0.904 ± 0.040,3.89 ± 0.46
+30,Ridge,AR-LeafParents,AR-LeafParents,5,0.367 ± 0.033,0.460 ± 0.042,0.904 ± 0.017,0.00 ± 0.00
+30,PatchTST,AR-LeafParents,AR-LeafParents,5,0.363 ± 0.114,0.468 ± 0.130,0.900 ± 0.038,2.46 ± 0.54
+30,RF,AR-only,AR_only,5,0.344 ± 0.030,0.470 ± 0.042,0.900 ± 0.018,0.25 ± 0.02
+30,XGBoost,AR-only,AR_only,5,0.348 ± 0.026,0.472 ± 0.044,0.898 ± 0.022,0.09 ± 0.01
+30,Ridge,AR-only,AR_only,5,0.376 ± 0.029,0.497 ± 0.050,0.888 ± 0.022,0.00 ± 0.00
+30,TimeMixer,Two-stage CBF,TwoStage_CBF_AirT_PAR,5,0.382 ± 0.144,0.508 ± 0.204,0.882 ± 0.068,3.11 ± 2.08
+30,TimeMixer,AR-LeafParents,AR-LeafParents,5,0.414 ± 0.156,0.528 ± 0.196,0.873 ± 0.064,2.82 ± 0.71
+30,iTransformer,AR-only,AR_only,5,0.418 ± 0.052,0.560 ± 0.070,0.858 ± 0.029,4.97 ± 3.04
+30,iTransformer,Two-stage CBF,TwoStage_CBF_AirT_PAR,5,0.451 ± 0.167,0.580 ± 0.194,0.848 ± 0.069,4.06 ± 3.41
+30,RF,AR-AirT,AR_AirT,5,0.430 ± 0.147,0.601 ± 0.213,0.833 ± 0.087,0.27 ± 0.02
+30,RF,Two-stage CBF,TwoStage_CBF_AirT_PAR,5,0.448 ± 0.127,0.605 ± 0.178,0.834 ± 0.068,0.30 ± 0.02
+30,XGBoost,AR-AirT,AR_AirT,5,0.431 ± 0.147,0.610 ± 0.237,0.828 ± 0.094,0.09 ± 0.01
+30,XGBoost,Two-stage CBF,TwoStage_CBF_AirT_PAR,5,0.455 ± 0.138,0.630 ± 0.204,0.819 ± 0.086,0.09 ± 0.01
+30,XGBoost,AR-LeafParents,AR-LeafParents,5,0.501 ± 0.166,0.664 ± 0.213,0.798 ± 0.096,0.09 ± 0.00
+30,RF,AR-LeafParents,AR-LeafParents,5,0.566 ± 0.176,0.728 ± 0.222,0.758 ± 0.112,0.25 ± 0.02
+30,iTransformer,AR-LeafParents,AR-LeafParents,5,0.651 ± 0.261,0.831 ± 0.258,0.682 ± 0.157,4.68 ± 4.07
+60,PatchTST,Two-stage CBF,TwoStage_CBF_AirT_PAR,5,0.446 ± 0.103,0.588 ± 0.146,0.840 ± 0.068,2.44 ± 0.69
+60,PatchTST,AR-AirT,AR_AirT,5,0.459 ± 0.157,0.598 ± 0.192,0.833 ± 0.076,4.52 ± 1.73
+60,iTransformer,AR-AirT,AR_AirT,5,0.456 ± 0.136,0.619 ± 0.168,0.823 ± 0.078,4.01 ± 2.12
+60,TimeMixer,Two-stage CBF,TwoStage_CBF_AirT_PAR,5,0.510 ± 0.115,0.646 ± 0.148,0.810 ± 0.067,1.47 ± 0.20
+60,Ridge,AR-AirT,AR_AirT,5,0.521 ± 0.056,0.654 ± 0.099,0.802 ± 0.066,0.00 ± 0.00
+60,PatchTST,AR-only,AR_only,5,0.485 ± 0.060,0.660 ± 0.088,0.801 ± 0.052,6.01 ± 1.52
+60,Ridge,Two-stage CBF,TwoStage_CBF_AirT_PAR,5,0.563 ± 0.047,0.684 ± 0.053,0.786 ± 0.044,0.00 ± 0.00
+60,TimeMixer,AR-AirT,AR_AirT,5,0.531 ± 0.154,0.689 ± 0.185,0.784 ± 0.084,1.85 ± 1.24
+60,Ridge,AR-LeafParents,AR-LeafParents,5,0.575 ± 0.055,0.698 ± 0.059,0.779 ± 0.034,0.00 ± 0.00
+60,iTransformer,Two-stage CBF,TwoStage_CBF_AirT_PAR,5,0.548 ± 0.099,0.698 ± 0.111,0.775 ± 0.076,2.56 ± 0.50
+60,TimeMixer,AR-only,AR_only,5,0.539 ± 0.075,0.715 ± 0.108,0.767 ± 0.065,4.00 ± 2.04
+60,RF,AR-only,AR_only,5,0.557 ± 0.055,0.737 ± 0.069,0.756 ± 0.019,0.25 ± 0.02
+60,XGBoost,AR-only,AR_only,5,0.563 ± 0.048,0.742 ± 0.067,0.751 ± 0.031,0.09 ± 0.00
+60,TimeMixer,AR-LeafParents,AR-LeafParents,5,0.603 ± 0.197,0.752 ± 0.242,0.746 ± 0.107,2.68 ± 0.68
+60,Ridge,AR-only,AR_only,5,0.596 ± 0.043,0.762 ± 0.065,0.738 ± 0.029,0.00 ± 0.00
+60,iTransformer,AR-only,AR_only,5,0.609 ± 0.073,0.796 ± 0.097,0.715 ± 0.038,4.13 ± 1.10
+60,PatchTST,AR-LeafParents,AR-LeafParents,5,0.612 ± 0.268,0.820 ± 0.405,0.686 ± 0.240,4.81 ± 2.52
+60,RF,AR-AirT,AR_AirT,5,0.655 ± 0.224,0.892 ± 0.319,0.629 ± 0.205,0.28 ± 0.01
+60,iTransformer,AR-LeafParents,AR-LeafParents,5,0.721 ± 0.274,0.911 ± 0.324,0.619 ± 0.198,3.27 ± 1.08
+60,RF,Two-stage CBF,TwoStage_CBF_AirT_PAR,5,0.669 ± 0.176,0.915 ± 0.262,0.622 ± 0.146,0.29 ± 0.03
+60,XGBoost,Two-stage CBF,TwoStage_CBF_AirT_PAR,5,0.672 ± 0.204,0.942 ± 0.325,0.595 ± 0.202,0.09 ± 0.01
+60,XGBoost,AR-AirT,AR_AirT,5,0.668 ± 0.238,0.954 ± 0.414,0.565 ± 0.297,0.09 ± 0.01
+60,XGBoost,AR-LeafParents,AR-LeafParents,5,0.847 ± 0.374,1.136 ± 0.520,0.374 ± 0.474,0.09 ± 0.00
+60,RF,AR-LeafParents,AR-LeafParents,5,0.882 ± 0.322,1.179 ± 0.453,0.353 ± 0.383,0.25 ± 0.02
+120,PatchTST,Two-stage CBF,TwoStage_CBF_AirT_PAR,5,0.762 ± 0.094,0.953 ± 0.115,0.589 ± 0.082,3.33 ± 0.94
+120,iTransformer,AR-AirT,AR_AirT,5,0.745 ± 0.132,0.977 ± 0.161,0.570 ± 0.093,3.65 ± 1.17
+120,TimeMixer,AR-LeafParents,AR-LeafParents,5,0.834 ± 0.119,1.012 ± 0.092,0.533 ± 0.089,2.89 ± 1.66
+120,PatchTST,AR-AirT,AR_AirT,5,0.814 ± 0.206,1.014 ± 0.261,0.538 ± 0.147,2.79 ± 0.80
+120,PatchTST,AR-LeafParents,AR-LeafParents,5,0.813 ± 0.135,1.026 ± 0.135,0.525 ± 0.082,3.03 ± 0.76
+120,TimeMixer,AR-AirT,AR_AirT,5,0.833 ± 0.095,1.045 ± 0.120,0.507 ± 0.074,1.54 ± 0.74
+120,PatchTST,AR-only,AR_only,5,0.818 ± 0.124,1.045 ± 0.138,0.512 ± 0.032,5.18 ± 1.59
+120,iTransformer,Two-stage CBF,TwoStage_CBF_AirT_PAR,5,0.839 ± 0.228,1.046 ± 0.272,0.511 ± 0.153,3.89 ± 2.14
+120,Ridge,Two-stage CBF,TwoStage_CBF_AirT_PAR,5,0.888 ± 0.097,1.053 ± 0.088,0.490 ± 0.121,0.00 ± 0.00
+120,Ridge,AR-AirT,AR_AirT,5,0.891 ± 0.069,1.082 ± 0.088,0.472 ± 0.050,0.00 ± 0.00
+120,TimeMixer,Two-stage CBF,TwoStage_CBF_AirT_PAR,5,0.882 ± 0.185,1.096 ± 0.239,0.464 ± 0.124,2.03 ± 1.08
+120,TimeMixer,AR-only,AR_only,5,0.891 ± 0.085,1.114 ± 0.117,0.443 ± 0.038,2.88 ± 1.49
+120,Ridge,AR-LeafParents,AR-LeafParents,5,0.943 ± 0.116,1.121 ± 0.108,0.430 ± 0.088,0.00 ± 0.00
+120,iTransformer,AR-LeafParents,AR-LeafParents,5,0.956 ± 0.261,1.125 ± 0.236,0.417 ± 0.203,2.72 ± 0.47
+120,RF,AR-only,AR_only,5,0.915 ± 0.100,1.151 ± 0.123,0.404 ± 0.051,0.25 ± 0.01
+120,XGBoost,AR-only,AR_only,5,0.928 ± 0.093,1.165 ± 0.117,0.390 ± 0.050,0.09 ± 0.00
+120,iTransformer,AR-only,AR_only,5,0.937 ± 0.119,1.166 ± 0.143,0.392 ± 0.026,4.33 ± 1.38
+120,Ridge,AR-only,AR_only,5,0.968 ± 0.107,1.189 ± 0.123,0.364 ± 0.057,0.00 ± 0.00
+120,RF,AR-AirT,AR_AirT,5,1.006 ± 0.208,1.233 ± 0.232,0.315 ± 0.174,0.27 ± 0.02
+120,XGBoost,AR-AirT,AR_AirT,5,1.020 ± 0.235,1.255 ± 0.283,0.289 ± 0.222,0.09 ± 0.00
+120,XGBoost,Two-stage CBF,TwoStage_CBF_AirT_PAR,5,0.959 ± 0.238,1.272 ± 0.407,0.270 ± 0.312,0.12 ± 0.05
+120,RF,Two-stage CBF,TwoStage_CBF_AirT_PAR,5,0.993 ± 0.223,1.291 ± 0.334,0.250 ± 0.244,0.29 ± 0.02
+120,RF,AR-LeafParents,AR-LeafParents,5,1.172 ± 0.318,1.495 ± 0.467,-0.007 ± 0.419,0.24 ± 0.02
+120,XGBoost,AR-LeafParents,AR-LeafParents,5,1.232 ± 0.387,1.534 ± 0.517,-0.073 ± 0.519,0.09 ± 0.01

@@ -1,0 +1,3 @@
+sensor_scenario,event_q,horizon_min,model,algorithm,env_type,n,positive_rate
+clean,0.9,10,DT-proxy base,XGBoost,high_vpd,1957,0.12825753704649975
+clean,0.9,10,DT-proxy base,XGBoost,high_par,1961,0.08975012748597654

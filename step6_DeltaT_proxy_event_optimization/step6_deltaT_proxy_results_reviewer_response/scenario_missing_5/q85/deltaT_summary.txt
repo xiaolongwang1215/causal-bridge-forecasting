@@ -1,0 +1,20 @@
+dataset_mode: raw
+task: deployment-oriented ΔT proxy early warning
+csv_path: D:\JetBrains\Python\PyCharmProjects\GreenHouse·TomatoExperimentTriggerImprovement\step0_clean_build\step0_results\data_trigger_mainmodel_raw.csv
+sensor_scenario: missing_5
+event_def: deltaT_top
+event_q: 0.85
+horizons: (10, 30, 60, 120)
+thr_mode: max_f1
+algorithms: ('logistic', 'rf', 'xgb')
+
+count: 11455
+mean: 2.424281
+std: 1.161894
+min: -5.690000
+p10: 1.217000
+p50: 2.430000
+p85: 3.290000
+p90: 3.604024
+p95: 4.260000
+max: 8.570000

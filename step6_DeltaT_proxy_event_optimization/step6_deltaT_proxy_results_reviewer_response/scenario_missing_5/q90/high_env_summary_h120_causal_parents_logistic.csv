@@ -1,0 +1,3 @@
+sensor_scenario,event_q,horizon_min,model,algorithm,env_type,n,positive_rate
+missing_5,0.9,120,Causal-parents,Logistic,high_vpd,2147,0.14671634839310665
+missing_5,0.9,120,Causal-parents,Logistic,high_par,2149,0.10888785481619358

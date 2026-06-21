@@ -1,0 +1,3 @@
+sensor_scenario,event_q,horizon_min,model,algorithm,env_type,n,positive_rate
+missing_5,0.85,120,Causal-parents,XGBoost,high_vpd,2147,0.2296227293898463
+missing_5,0.85,120,Causal-parents,XGBoost,high_par,2149,0.17496510004653326
